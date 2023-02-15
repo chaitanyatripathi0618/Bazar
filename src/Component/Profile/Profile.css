@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+.person{
+    
+    font-family: 'Playfair Display', serif;
+
+}
+.details{
+    /* border: 1px solid black; */
+    width: 400px;
+    height: 300px;
+    margin-left: 110px;
+    margin-top: 40px;
+}
+#greet{
+    font-size: 40px;
+    background: linear-gradient(
+        to right, #2C5364, #203A43,
+        #0F2027 );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+#nameu, #emailu,#phoneu,#passu{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.pastHistory{
+    border: 1px solid black;
+    margin-top: 20px;
+    height: 400px;
+}

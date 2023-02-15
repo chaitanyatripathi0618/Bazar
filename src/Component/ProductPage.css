@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+.Content{
+    /* border: 1px solid black; */
+    height: 950px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+.imgContent{
+    /* border: 1px solid black; */
+    width: 450px;
+    overflow: hidden;
+    margin-top: 50px;
+    height: 450px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.textcontent{
+    /* border: 1px solid black; */
+    width: 650px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+#imgid{
+    width: 410px;
+    margin: 10px; 
+    height: 410px;
+}
+#title{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    margin-left: 50px;
+
+}
+#category{
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    background: linear-gradient(
+        to right, #2C5364, #203A43,
+        #0F2027 );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    /* margin-top: 5px; */
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+#price{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+hr{
+    height: 2px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+#taxes{
+    margin-top: 5px;
+    font-weight: 600;
+    background: linear-gradient(
+        to right, #2C5364, #203A43,
+        #0F2027 );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: 'Playfair Display', serif;
+    margin-left: 50px;
+}
+.rate{
+    display: flex;
+    flex-direction: row;
+}
+.ratediv{
+    display: flex;
+}
+#ratep{
+    font-family: 'Playfair Display', serif;
+    margin-left: 50px;
+    font-size: 50px;
+    margin-top: -10px;
+}
+#star{
+    margin-left: 5px;
+    margin-top:30px;
+}
+.ratediv{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+#hr2{
+    width: 200px;
+}
+#size{
+    font-family: 'Playfair Display', serif;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.sizechart{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 400px;
+    justify-content: space-between;
+
+}
+.scl{
+    border: 1px solid black;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+.btndiv{
+    margin-left: 50px;
+    /* border: 1px solid black; */
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px; 
+    flex-direction: row;
+    width: 400px;
+    justify-content: space-between;
+}
+#plusbtn, #minusbtn{
+    font-family: 'Playfair Display', serif;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    color: white;
+    border-radius: 50%;
+}
+#cartbtn{
+    width: 150px;  
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    color: white;
+}
+.delivery{
+    margin-left: 50px;
+    margin-top: 10px;
+    font-family: 'Playfair Display', serif;
+
+    /* border: 1px solid black; */
+}
+.offers{
+    margin-left: 50px;
+
+    font-family: 'Playfair Display', serif;
+
+    margin-top: 10px;
+    /* border: 1px solid black; */
+}
+.description{
+    margin-left: 50px;
+    font-family: 'Playfair Display', serif;
+
+    margin-top: 10px;
+    /* border: 1px solid black; */
+    height: 100px;
+}
+.review{
+    margin-left: 50px;
+    margin-top: 10px;
+    font-family: 'Playfair Display', serif;
+
+    /* border: 1px solid black; */
+    height: 80px;
+}

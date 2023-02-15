@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.loginContent{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: 'Playfair Display', serif;
+    overflow: hidden;
+    justify-content: space-evenly;
+    height: 600px;
+}
+.bodydiv{
+    /* border: 1px solid black; */
+}
+.updi{
+    /* border: 2px solid black; */
+}
+.formContent{
+    /* border: 1px solid black; */
+    width: 600px;
+    margin-top: 150px;
+    margin-left: 110px;
+    margin-bottom: 150px;
+}
+.formPage{
+    /* border: 4px solid black; */
+    height: 280px;
+    font-family: 'Playfair Display', serif;
+
+}
+.text{
+    margin-top: 10px;
+    border-radius: 10px; 
+    font-family: 'Playfair Display', serif;
+    padding-left: 20px;
+    /* border: none; */
+    background: #f6f6f6;;
+    width: 450px;
+    font-size: 20px;
+    opacity: 0.6;
+    height: 40px;
+}
+#pass{
+    margin-top: 30px;
+}
+.animationContent{
+    /* border: 1px solid black; */
+    overflow: hidden;
+    width: 600px;
+}
+.subbtn{
+    margin-top: 10px;
+    font-family: 'Playfair Display', serif;
+    width: 150px;
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    color: #fff;
+    font-weight: 600;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    height: 45px;
+}
+#loginAnimation{
+    width: 700px;
+    /* height: 800px; */
+
+}
+.logodiv{
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+}
+.logbtn{
+    background: linear-gradient(
+        to right, #2C5364, #203A43,
+        #0F2027 );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    border: none;
+    width: 130px;
+    font-family: 'Playfair Display', serif;
+    margin-left: 240px;
+    font-size: 30px;
+    height: 45px;
+    /* margin-top: 10px; */
+    cursor: pointer;
+    font-weight: 600;
+}

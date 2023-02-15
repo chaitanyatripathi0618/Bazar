@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+.productpage{
+    /* border: 3px solid black; */
+    display:flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: 110px;
+    margin-right: 100px;
+    background: #f6f6f6;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.card{
+    /* border: 1px solid black; */
+    width: 300px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    background: #fff;
+    height: 380px;
+    overflow: hidden;    
+}
+.cardimg{
+    margin-top: 30px;
+    /* border: 2px solid black; */
+    margin-left: 75px;
+    width: 150px;
+    height: 170px;
+    overflow: hidden;
+}
+#pimg{
+    width: 150px;
+    height: 170px;
+}
+.cardcontent{
+    /* border: 1px solid black; */
+    width: 210px;
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+#price{
+    margin-top: 10px;
+    font-size: 18px;
+}
+#animation{
+    width: 500px;
+    height: 100px;
+    margin-left: 500px;
+}
+#addbtn{
+    width: 100px;
+    height: 25px;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 100px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    color: white;
+}

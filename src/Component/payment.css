@@ -1,0 +1,53 @@
+.Delivery_credentials{
+    /* border: 1px solid black; */
+}
+.formflex{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.Delivery_credentials h2{
+    margin-left: 110px;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    background: linear-gradient(
+        to right, #2C5364, #203A43,
+        #0F2027 );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 600;
+    margin-top: 32px;
+
+}
+.form11{
+    margin-left: 110px;
+    /* border: 1px solid black; */
+    margin-top: 20px;  
+}
+.form11 input{
+    margin-top: 10px;
+    border-radius: 10px; 
+    font-family: 'Playfair Display', serif;
+    padding-left: 20px;
+    /* border: none; */
+    background: #f6f6f6;;
+    width: 450px;
+    font-size: 20px;
+    opacity: 0.6;
+    height: 40px;
+}
+#cnfbtn{
+    margin-top: 20px;
+    width: 300px;
+    margin-left: 110px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    border: none;
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    border-radius: 5px;
+    cursor: pointer;
+}

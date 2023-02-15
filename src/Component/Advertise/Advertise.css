@@ -1,0 +1,111 @@
+.postimg{
+    border: 1px solid black;
+    width: 300px;
+    height: 100px;
+}
+.images{
+    margin-top: 15px;
+    height: 60px;
+    bottom: 15px;
+}
+.slide{
+    /* border: 1px solid black; */
+    margin-left: 110px;
+    height: 90px;
+    margin-right: 110px;
+    margin-bottom: 40px;
+}
+.brandhead{
+    margin-left: 110px;
+    font-size: 40px;
+    background: linear-gradient(
+        to right, #2C5364, #203A43,
+        #0F2027 );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: 'Playfair Display', serif;
+}
+.forher{
+    /*   */
+    position: relative;
+    margin-left: 110px;
+    margin-right: 110px;
+    width: 1250px;
+    display: flex;
+    overflow: hidden;
+    margin-top: 20px;
+    height: 300px;
+}
+.forherimg{
+    position: absolute;
+    margin-top: 0;
+    width: 900px;
+    height: 290px;
+}
+
+.forher h2{
+    position: absolute;
+    margin-top: 80px;
+    font-size: 40px;
+    background: linear-gradient(
+        to right, #2C5364, #203A43,
+        #0F2027 );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    margin-left: 70px;
+}
+.forher p{
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 70px;
+    font-size: 30px;
+}
+.divbag{
+    /* border: 1px solid black; */
+    margin-left: 980px;
+    width: 270px;
+    overflow: hidden;
+}
+#bagher{
+    height: 290px;
+    width: 270px;
+
+}
+.offe{
+    border: 1px solid black;
+    display: flex;
+    overflow: hidden;
+    height: 600px;
+    margin-left: 110px;
+    justify-content: space-between;
+    margin-right: 110px;
+}
+.offers2{
+    margin-left: 110px;
+    /* border: 1px solid black; */
+    overflow: hidden;
+    display: flex;
+    height: 350px;
+    margin-right: 110px;
+}
+.offeri{
+    overflow: hidden;
+    width: 650px;
+    height: 500px;
+}
+.offeri img{
+    width: 650px;
+}
+.offeri2{
+    /* border: 1px solid black; */
+    overflow: hidden;
+    width: 540px;
+    margin-left: 70px;
+}
+.ring{
+    width: 540px;
+
+    height: 350px;
+
+
+}
