@@ -11,6 +11,8 @@ import PrivacyP from './Component/contactus/PrivacyP';
 import ContactUs from './Component/contactus/ContactUs';
 import Payment from './Component/Payment';
 import Confirm from './Component/Confirm';
+import Learn from './Component/Lear' 
+import School from "./Component/School"
 
 //500 to 599 internal server error
 //400 -499 server not found
@@ -30,6 +32,8 @@ function App() {
                 <Route path='/products' element={<Product />} />
                 <Route path='/products/:productId' element={<ProductPage/>} />
                 <Route path='/cart' element={<ShoppingPage/>}/>
+                <Route path='/learn' element={<Learn/>}/>
+                <Route path='/school' element={<School/>}/>
                 {/* <Route path='/login' element={<Login/>}/> */}
 
                 {/* Match all paths */}

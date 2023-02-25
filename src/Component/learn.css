@@ -1,0 +1,113 @@
+.divbox{
+    border: 1px solid black;
+    height: 750px;
+    /* margin-top: 100px; */
+    display: flex;
+    flex-direction: row;
+    /* background: linear-gradient(to right, #93e9be, #e9e4f0);
+     */
+     background: linear-gradient(to right, #84bcd4, #478295, #2c5364); 
+    justify-content: space-evenly;
+}
+.logo{
+    /* border: 1px solid black; */
+    margin-top: 150px;
+    margin-left: 90px;
+    width: 600px;
+    height:450px;
+    background: none;
+}
+.aniiicontent{ 
+    margin-top: 150px;
+    position: relative;
+    border: 1px solid black;
+    height: 400px;
+    width: 400px;
+    background: none;
+}
+#logodiv{
+    /* border: 1px solid black; */
+    margin-left:40px; 
+    overflow: hidden;
+    width: 500px;
+    margin-top: 10px;
+    height: 130px;
+    position: relative;
+    background: none;
+}
+#tagname{
+    margin-top: 90px;
+}
+.sparkle{
+    margin-top: -120px;
+    background: none;
+    position: absolute;
+    height: 180px;
+    width: 150px;
+    margin-left: 0px;
+    overflow: hidden;
+}
+#logodiv img{
+    position: absolute;
+    height: 280px;
+    width: 280px;
+    margin-top: -90px;
+    margin-left: -50px;
+    background: none;
+}
+.sideani{
+    position:relative;
+    background:none;
+}
+#window{
+    position:absolute;
+    background:none;
+}
+.sideani img{
+    position: absolute;
+    background: none;
+    margin-top: 250px;
+}
+.desk{
+    margin-left: 250px;
+    height: 400px;
+    width: 300px;
+}
+.clock{
+    position: absolute;
+    height: 30px;
+    margin-left: -160px;
+    margin-top: 20px;
+}
+#clock{
+    height: 130px;
+}
+.divform{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.divform input{
+    width: 350px;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: black;
+    height: 35px;
+    outline: none;
+}
+#mem{
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    outline: none;
+}
+#help{
+    margin-left: 290px;
+    background: none;
+    width: 100px;
+    height:30px;
+    font-size: 18px;
+    font-weight: 600;
+}

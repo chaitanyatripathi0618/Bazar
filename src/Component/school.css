@@ -1,0 +1,14 @@
+.outerdive{
+    border: 1px solid black;
+    height: 800px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.schoolName{
+    margin-top: 150px;
+    width: 400px;
+    overflow: hidden;
+}
+#im2{
+    width: 370px;
+}

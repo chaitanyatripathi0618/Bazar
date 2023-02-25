@@ -1,4 +1,4 @@
-.navbar{
+.navbarrrrr{
     display: flex;
     /* border: 1px solid black; */
     height: 60px;
@@ -8,6 +8,10 @@
         flex-direction: row;
         box-shadow: 0 3px rgb(0 0 0 / 0.2);
     justify-content: space-around;
+}
+.navbarrrrr ul{
+    display: flex;
+    justify-content: space-evenly;
 }
 .Category{
     /* border: 1px solid black; */

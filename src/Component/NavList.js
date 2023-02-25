@@ -3,13 +3,17 @@ import { Link } from "react-router-dom";
 
 function NavList(){
     return(
-        <div className='navbar'>
+        <div className='navbarrrrr'>
             <ul>
                 <Link to="/products">
                 <li>
                     Shopping
                 </li>
-
+                </Link>
+                <Link to ="/learn">
+                <li>
+                    Learn & Grow
+                </li>
                 </Link>
             </ul>
         </div>
